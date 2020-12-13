@@ -5,13 +5,13 @@
 -   App is SSR enabled. SEO's top priority so google can index are pages
 -   APP is using React, Redux, Redux Saga, Statemanagment using Redux, Persist data
 -   App routes
-    > / (Home Page)
-          - showing the list of customers
-          - layout is responsive and used latest tech (CSS3)
-    > /cutomer/[id]
-          - customer name and address details
-          - Address is an object, formatted the object so iteration can happen using latest techs / ES6/7/8/9 features
-          - Direct accessing page is also working, smartly implementing the logic.
+    -   (Home Page)
+        -   showing the list of customers
+        -   layout is responsive and used latest tech (CSS3)
+    -   cutomer/[id]
+        -   customer name and address details
+        -   Address is an object, formatted the object so iteration can happen using latest techs / ES6/7/8/9 features
+        -   Direct accessing page is also working, smartly implementing the logic.
             a/ If a user visits the detail page from the home page. No additional call for customer details
             b/ If user directly visits, fetching customer details data only instead of all the customers list.
 -   app's dev mode is enabled by HMR. Quick updates without page refresh.
