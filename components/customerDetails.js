@@ -1,14 +1,14 @@
 import { useSelector } from 'react-redux';
-
+import Link from 'next/link';
 const CustomerDetails = () => {
 	const selctedCustomer = useSelector((state) => state.selctedCustomer);
-	const address = selctedCustomer.address
+	const address = selctedCustomer?.address
 		? Object.entries(selctedCustomer.address)
 		: null;
 
 	return (
 		<div>
-			<h1>Customer Details : {selctedCustomer.name}</h1>
+			<h1>Customer Details : {selctedCustomer?.name}</h1>
 			<h3>Address</h3>
 			<ul className='address'>
 				{address &&
@@ -21,6 +21,11 @@ const CustomerDetails = () => {
 						</li>
 					))}
 			</ul>
+			<p>
+				<Link href='/'>
+					<button>Back to Home</button>
+				</Link>
+			</p>
 			<style jsx>{`
 				.address {
 					max-width: 300px;
@@ -39,6 +44,14 @@ const CustomerDetails = () => {
 				}
 				.address li span {
 					flex-basis: 50%;
+				}
+				button {
+					background-color: green;
+					color: #fff;
+					padding: 10px;
+					border: none;
+					border-radius: 4px;
+					cursor: pointer;
 				}
 			`}</style>
 		</div>

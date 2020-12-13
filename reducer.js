@@ -10,7 +10,11 @@ const initialState = {
 function reducer(state = initialState, action) {
 	switch (action.type) {
 		case HYDRATE: {
-			return Object.assign({}, state, action.payload);
+			return Object.assign({}, state, action.payload, {
+				customers: action.payload.customers
+					? action.payload.customers
+					: state.customers,
+			});
 		}
 		case actionTypes.CUSTOMERS_DATA_SUCCESS:
 			return {
