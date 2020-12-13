@@ -10,21 +10,21 @@
           - layout is responsive and used latest tech (CSS3)
     > /cutomer/[id]
           - customer name and address details
-          - Address is an object, formated the object so itration can happen using latest techs / ES6/7/8/9 features
-          - Direct accessing page is also working, smartly implemented the logic.
-            a/ If user visit the detail page from home page. No addtional call for customer details
-            b/ If user directly visiting, fetching customer details data only instead of all the customers list.
+          - Address is an object, formatted the object so iteration can happen using latest techs / ES6/7/8/9 features
+          - Direct accessing page is also working, smartly implementing the logic.
+            a/ If a user visits the detail page from the home page. No additional call for customer details
+            b/ If user directly visits, fetching customer details data only instead of all the customers list.
 -   app's dev mode is enabled by HMR. Quick updates without page refresh.
 -   Optimized bundle
 -   App support preloading / pre-fetching features for great performance
--   Many more features has been added for great experiece
+-   Many more features has been added for great experience
 
 NOTE: -
 
-Immprovments
+Improvements
 
--   Actions / Redcuers / Saga further decouled as per modules / pages / features, so we have a good moduler approach
--   Actions types and actions created can be seperated
--   API's seperate setup for get/post - It will help devs to use common utilities from single module
+-   Actions / Reducers / Saga further decoupled as per modules / pages / features, so we have a good modular approach
+-   Actions types and actions created can be separated
+-   API's separate setup for get/post - It will help devs to use common utilities from single module
 -   Config setup would be great for APIs end-points / some secrets keys and other config related data
--   Dymanic loading / bundle split can be addressed for larger application
+-   Dynamic loading / bundle split can be addressed for larger application
