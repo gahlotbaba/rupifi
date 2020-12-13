@@ -17,13 +17,14 @@
 -   app's dev mode is enabled by HMR. Quick updates without page refresh.
 -   Optimized bundle
 -   App support preloading / pre-fetching features for great performance
-- Many more features has been added for great experiece 
+-   Many more features has been added for great experiece
 
 NOTE: -
 
-Immprovments 
-- Actions / Redcuers / Saga further decouled as per modules / pages / features, so we have a good moduler approach 
-- Actions types and actions created can be seperated
-- API's seperate setup for get/post - It will help devs to use common utilities from single module 
-- Config setup would be great for APIs end-points / some secrets keys and other config related data 
-- Dymanic loading / bundle split can be addressed for larger application 
+Immprovments
+
+-   Actions / Redcuers / Saga further decouled as per modules / pages / features, so we have a good moduler approach
+-   Actions types and actions created can be seperated
+-   API's seperate setup for get/post - It will help devs to use common utilities from single module
+-   Config setup would be great for APIs end-points / some secrets keys and other config related data
+-   Dymanic loading / bundle split can be addressed for larger application

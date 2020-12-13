@@ -14,6 +14,9 @@ function reducer(state = initialState, action) {
 				customers: action.payload.customers
 					? action.payload.customers
 					: state.customers,
+				selctedCustomer: action.payload.selctedCustomer
+					? action.payload.selctedCustomer
+					: state.selctedCustomer,
 			});
 		}
 		case actionTypes.CUSTOMERS_DATA_SUCCESS:

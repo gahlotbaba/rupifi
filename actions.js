@@ -17,10 +17,11 @@ export function loadCustomersDataSuccess(data) {
 		data,
 	};
 }
-export function selectCustomer(id) {
+export function selectCustomer(id, data) {
 	return {
 		type: actionTypes.SELECT_CUSTOMER,
 		id,
+		data,
 	};
 }
 export function selectCustomerSuccess(data) {

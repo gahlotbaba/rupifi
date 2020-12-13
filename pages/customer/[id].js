@@ -9,7 +9,7 @@ const CustomerDetailsPage = () => {
 export const getServerSideProps = wrapper.getServerSideProps(
 	async ({ store, params }) => {
 		const { id } = params;
-		if (!store.getState().customers) {
+		if (!store.getState().selctedCustomer) {
 			store.dispatch(selectCustomer(id, null));
 			store.dispatch(END);
 		}
