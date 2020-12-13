@@ -1,14 +1,14 @@
 # rupifi task1
 
 -   This app has been developed using NextJS. URL: https://nextjs.org/
--   One of the great boilerplate and netflix and other famouse brands are using it.
+-   One of the great boilerplate and netflix and other famous brands are using it.
 -   App is SSR enabled. SEO's top priority so google can index are pages
--   APP is using React, Redux, Redux Saga, Statemanagment using Redux, Persist data
+-   APP is using React, Redux, Redux Saga, State Management using Redux, Persist data
 -   App routes
     -   (Home Page)
         -   showing the list of customers
         -   layout is responsive and used latest tech (CSS3)
-    -   cutomer/[id]
+    -   customer/[id]
         -   customer name and address details
         -   Address is an object, formatted the object so iteration can happen using latest techs / ES6/7/8/9 features
         -   Direct accessing page is also working, smartly implementing the logic.
