@@ -12,10 +12,12 @@ pipeline {
                 echo 'Building..'
             }
             steps {
-               npm run build
+                sh 'npm install'
+               sh 'npm run build'
+               
             }
-          steps {
-                npm run start
+            steps {
+               sh 'npm run start'   
             }
         }
 
