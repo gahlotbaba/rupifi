@@ -1,4 +1,4 @@
-# rupifi task1
+# rupifi
 
 -   This app has been developed using NextJS. URL: https://nextjs.org/
 -   One of the great boilerplate and netflix and other famous brands are using it.
