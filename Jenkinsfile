@@ -14,7 +14,6 @@ pipeline {
                 echo 'building'
                 sh 'npm install'
                sh 'npm run build'
-               
             }
            
         }
