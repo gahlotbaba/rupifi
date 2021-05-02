@@ -1,5 +1,6 @@
 #!/usr/bin/env groovy
 
+
 pipeline {
     agent any
     tools {nodejs "node"}
@@ -14,6 +15,7 @@ pipeline {
                 echo 'building'
                 sh 'npm install'
                sh 'npm run build'
+                echo 'build done'
             }
            
         }
