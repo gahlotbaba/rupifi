@@ -28,3 +28,4 @@ Improvements
 -   API's separate setup for get/post - It will help devs to use common utilities from single module
 -   Config setup would be great for APIs end-points / some secrets keys and other config related data
 -   Dynamic loading / bundle split can be addressed for larger application
+-   performance testing log1
