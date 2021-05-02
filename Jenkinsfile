@@ -15,7 +15,6 @@ pipeline {
                 echo 'building'
                 sh 'npm install'
                sh 'npm run build'
-                sh 'npm run start' 
                
             }
            
